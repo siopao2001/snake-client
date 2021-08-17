@@ -9,7 +9,7 @@ const connect = function() {
  
 conn.on('connect', () => {
   console.log('Successfully connected to game server');
-  conn.write("Name: ZLP");
+  conn.write("Name: PSF");
 });
 
 conn.on('data', (data) => {
